@@ -1,0 +1,97 @@
+*,
+ *::before,
+ *::after{
+margin: 0;
+padding: 0;
+list-style: none;
+box-sizing: border-box;
+ }
+body{
+    background: #ffe5ec;
+    font-family: 'Montssrrat', sans-serif;
+    font-weight: 300;
+} 
+::placeholder{
+    color: #fff;
+    opacity: 1;
+}
+h1,
+h2,
+h4,
+h5,
+h6{
+    font-weight: 600;
+    margin: 0 0 15px;
+}
+#main{
+    background-image: linear-gradient(#ff0248,#ff6d31);
+    width: 90%;
+    padding: 35px 25px 25px;
+    margin: 25px auto 0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #ddd;
+    font-weight: 900;
+}
+#main h1{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+#main h2{
+    color: #262626;
+    background: #ddd;
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+#main form{
+    margin: 15px 0;
+}
+#main label{
+color: #fff;
+font-weight: 600;
+font-size: 14px;
+display: block;
+}
+#main input{
+    background-image: linear-gradient(#ff4a69,#ff7060);
+    border: 0px;
+    border-radius: 0px;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+#main input:focus{
+outline: none;
+}
+#main button{
+    background: #fff;
+    color: #262626;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin-top: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5;
+}
+#main button:hover{
+    background: #ddd;
+}
+.result,
+.info{
+    background: #fff;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+.info{
+    margin-top: 20px;
+}
+.result{
+    display: none;
+}
